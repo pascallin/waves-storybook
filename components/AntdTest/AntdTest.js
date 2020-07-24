@@ -5,12 +5,12 @@ export default {
   title: "Antd-Test",
   component: Button,
 };
-export function AntdTest() {
+export function AntdTest(props) {
   return (
     <div className="App">
       <h1>antd version: {version}</h1>
       <DatePicker />
-      <Button type="primary" style={{ marginLeft: 8 }}>
+      <Button type="primary" style={{ marginLeft: 8 }} onClick={props.onClick}>
         Primary Button
       </Button>
     </div>
