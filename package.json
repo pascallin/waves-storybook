@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
+    "sb": "yarn storybook",
     "build-storybook": "build-storybook",
     "lint": "eslint components",
     "lint:fix": "eslint --fix"
@@ -23,7 +24,8 @@
   "homepage": "https://github.com/pascallin/waves-storybook#readme",
   "dependencies": {
     "@apollo/client": "^3.0.2",
-    "antd": "^4.4.3"
+    "antd": "^4.4.3",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
