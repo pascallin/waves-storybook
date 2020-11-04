@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, DatePicker, version } from "antd";
 
-export default {
-  title: "Antd-Test",
-  component: Button,
+AntdTest.propTypes = {
+  onClick: PropTypes.function.isRequired,
 };
-export function AntdTest(props) {
+
+export default function AntdTest(props) {
   return (
     <div className="App">
       <h1>antd version: {version}</h1>
