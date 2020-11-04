@@ -1,8 +1,9 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Button, DatePicker, version } from "antd";
 
 AntdTest.propTypes = {
-  onClick: PropTypes.function.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default function AntdTest(props) {
