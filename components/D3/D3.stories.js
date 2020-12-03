@@ -1,17 +1,17 @@
 import React from "react";
 
-import { BandChart } from "./BandChart";
+import { BarChart } from "./BarChart";
 
 export default {
-  title: "D3 Band Chart Test",
-  component: BandChart,
+  title: "D3",
+  component: BarChart,
   excludeStories: /.*Data$/,
 };
 
-export const Demo = () => {
+export const BarChartTest = () => {
   return (
     <div style={{ padding: "10px 10px 0 10px" }}>
-      <BandChart />
+      <BarChart />
     </div>
   );
 };

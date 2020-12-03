@@ -1,7 +1,7 @@
 import React from "react";
 import * as d3 from "d3";
 
-export class BandChart extends React.Component {
+export class BarChart extends React.Component {
   constructor(props) {
     super(props);
     this.myref = React.createRef();

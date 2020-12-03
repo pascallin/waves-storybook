@@ -15,7 +15,7 @@ const taskData = {
   id: 1,
 };
 
-export const Demo = () => {
+export const InitTest = () => {
   return (
     <AntdTest
       task={object("task", { ...taskData })}

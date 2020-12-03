@@ -1,14 +1,14 @@
 import React from "react";
 
-import { BarGraph } from "./Test";
+import { BarGraph } from "./BarGraph";
 
 export default {
-  title: "BarGraph",
+  title: "Visx",
   component: BarGraph,
   excludeStories: /.*Data$/,
 };
 
-export const Demo = () => {
+export const BarGraphTest = () => {
   return (
     <div style={{ padding: "10px 10px 0 10px" }}>
       <BarGraph />

@@ -8,7 +8,7 @@ export default {
   excludeStories: /.*Data$/,
 };
 
-export const Demo = () => {
+export const EditorTextAreaTest = () => {
   return (
     <div style={{ padding: "10px 10px 0 10px" }}>
       <EditorTextArea />
